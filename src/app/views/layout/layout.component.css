@@ -1,0 +1,4 @@
+.content-scroll {
+    height: calc(100vh - 1rem); /* Adjust as needed to accommodate your header/footer */
+    overflow-y: auto;
+  }
