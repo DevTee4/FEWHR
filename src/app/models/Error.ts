@@ -1,4 +1,4 @@
-export class Error{
+export class Error {
     errorMsg = ""
     fullLog = ""
     statusCode = 0
