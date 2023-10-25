@@ -1,5 +1,5 @@
 export class Error {
-    errorMsg = ""
+    message = ""
     fullLog = ""
     statusCode = 0
   }

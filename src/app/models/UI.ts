@@ -1,7 +1,7 @@
 import { IAction } from "./IAction";
 
 export class UI {
-  interfaces: IAction[] = [];
+  actions: IAction[] = [];
   name = '';
   desription = '';
 }
