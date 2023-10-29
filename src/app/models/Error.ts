@@ -1,7 +1,5 @@
-import { BaseModel } from "./BaseModel"
-
-export class Error extends BaseModel {
-    errorMsg = ""
+export class Error {
+    message = ""
     fullLog = ""
     statusCode = 0
   }
