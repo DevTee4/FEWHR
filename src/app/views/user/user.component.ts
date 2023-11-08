@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/models/User';
 import { Role } from 'src/app/models/Role';
 import { faker } from '@faker-js/faker'
+import { Status } from 'src/app/models/Status';
 
 
 
@@ -21,6 +22,7 @@ export class UserComponent implements OnInit {
     let roles =new Role();
     roles.name = faker.person.jobTitle();
     roles.description = "Administrator";
+    faker
     for (var i = 1; i <= 300; i++) {
       this.users.push({
         fullName: faker.person.fullName(),
@@ -32,7 +34,6 @@ export class UserComponent implements OnInit {
         role: roles,
         isAppAdmin: false
       });
-      console.log(this.users);
     }
   }
 
