@@ -3,6 +3,7 @@ import { Role } from "./Role";
 export class User {
   expiryDate = Date.now();
   fullName = '';
+  phoneNumber = 0;
   password = '';
   email = '';
   roleId = '';
