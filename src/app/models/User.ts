@@ -1,4 +1,5 @@
 import { Role } from "./Role";
+import { Status } from "./Status";
 
 export class User {
   expiryDate = Date.now();
@@ -7,7 +8,7 @@ export class User {
   password = '';
   email = '';
   roleId = '';
-  status = '';
+  status : Status = Status.Active;
   role : Role = new Role();
   isAppAdmin: boolean = false;
 }
