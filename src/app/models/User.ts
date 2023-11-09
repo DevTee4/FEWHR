@@ -4,7 +4,7 @@ import { Status } from "./Status";
 export class User {
   expiryDate = Date.now();
   fullName = '';
-  phoneNumber = 0;
+  phoneNumber = '';
   password = '';
   email = '';
   roleId = '';

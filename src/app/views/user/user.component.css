@@ -1,0 +1,69 @@
+
+
+/* Styling the Bottom layout*/
+/* Container Div*/
+.w-full, .h-full { 
+    max-width: 100%;
+}
+
+/* Styling the Table*/
+/* Entire Table*/
+.table-auto, .w-full, .px-8, .h-full, .rounded-t-lg, .rounded-b-lg { 
+    max-width: 100%; 
+    padding-left: 3rem; 
+    padding-right: 3rem;
+}
+
+/* Targeting even rows*/
+thead:nth-child(even) {
+    background-color: #eff5fa;
+}
+
+/* Targeting odd rows*/
+tr:nth-child(odd) {
+    background-color: #b9d8f3;
+}
+
+/* Testing the heading*/
+/* .border-spacing, .content-center	{ 
+    border-spacing: 0.125rem 0.125rem;
+    align-content: center;
+} */
+
+/* Targeting the rows inside the heading*/
+/* .content-center {
+    align-content: left;
+} */
+
+/* Targeting the body rows
+.pl-8 {
+    padding-left: 2rem; /* 32px 
+} */
+
+/* Targeting the contents
+.text-center {
+    justify-content: start;
+}
+*/
+
+/* Targeting the buton*/
+.buton-wrapper {
+    align-items: right;
+}
+
+.buton {
+    background-color: #b9d8f3 ;
+    border: 1px solid #b9d8f3 ;
+    
+}
+
+.random {
+    width: 80px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border-radius: 13px;
+}
+
+/* newUser page */

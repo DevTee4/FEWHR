@@ -23,10 +23,11 @@ export class UserComponent implements OnInit {
     roles.name = faker.person.jobTitle();
     roles.description = "Administrator";
     faker
-    for (var i = 1; i <= 300; i++) {
+    for (var i = 1; i <= 21; i++) {
       this.users.push({
         fullName: faker.person.fullName(),
         email: faker.internet.email(),
+        phoneNumber: '',
         expiryDate: 0,
         password: '',
         roleId: '',
